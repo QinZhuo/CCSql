@@ -1,0 +1,174 @@
+
+
+CREATE DATABASE myfriend;
+use database myfriend;
+CREATE TABLE user (
+ userid int
+name string
+password string
+primary(userid)
+);
+CREATE TABLE myfriend(
+   id int
+
+   userid int
+ 
+   name string
+ 
+   sex string
+ 
+   age int
+ 
+   qq string
+ 
+   telephone string
+ 
+   email string
+
+   address string
+ primary(id userid)
+);
+
+use database myfriend;
+
+INSERT INTO user VALUES ('1', 'abc', '123');
+INSERT INTO user VALUES ('2', 'test', '123');
+INSERT INTO user VALUES ('1', 'abc', '123');
+INSERT INTO user VALUES ('3', 'admin', 'admin');
+INSERT INTO user VALUES ('2', 'test', '123');
+INSERT INTO myfriend VALUES ('5', '3', '王志杰', 'M', '28', '25388122', '13851697198', 'info@zzb.com.cn', '御道街御水湾花园68幢1-7');
+INSERT INTO myfriend VALUES ('6', '3', '金志荣', 'M', '21', '19035822', '15862710098', 'jobhunting@czrc.com.', '中国江苏通州市');
+INSERT INTO myfriend VALUES ('7', '2', '李宗瑾', 'F', '39', '18075619', '13347801003', '.njlj@kindnic.com', '光华路大石山四春南路48号');
+
+INSERT INTO myfriend VALUES ('10', '2', '贾建萍', 'M', '20', '17735640', '13851644287', 'js-wh@js-wh.com', '堂子街96号502');
+INSERT INTO myfriend VALUES ('11', '1', '王海味', 'M', '37', '22680304', '13812947114', 'KSQBMJ@163.COM', '城北模具中路60号');
+INSERT INTO myfriend VALUES ('12', '1', '孔景春', 'M', '27', '28072018', '', 'd_han@126.com', '、九莲塘小区6幢105室');
+INSERT INTO myfriend VALUES ('13', '1', '姜允报', 'M', '39', '15761377', '13951015710', 'shijiaomenchuang@126', '友谊路76号');
+INSERT INTO myfriend VALUES ('14', '2', '陈旭明', 'F', '23', '19532600', '13601466097', 'Service@jichuang88.c', '光华门外军农路2号');
+INSERT INTO myfriend VALUES ('15', '3', '李凌一', 'F', '25', '30586192', '13301476168', 'root@lygrc.net', '江苏南通海安胡集工业园镇南路');
+INSERT INTO myfriend VALUES ('16', '2', '陶国夫', 'M', '34', '22787427', '13862939620', 'ntut@pub.nt.jsinfo.n', '城南小苑7号');
+INSERT INTO myfriend VALUES ('17', '2', '王明福', 'M', '28', '18314605', '13732677404', 'cfgww@126.com', '昆山陆杨配套区财茂路３号');
+INSERT INTO myfriend VALUES ('18', '2', '施伟成', 'M', '36', '11282661', '13813822201', 'sales@mail.booksir.c', '丰富路61号');
+INSERT INTO myfriend VALUES ('19', '1', '陈小平', 'F', '23', '17429831', '', 'food800@126.com', '苏州常熟市唐市镇');
+INSERT INTO myfriend VALUES ('20', '1', '王华', 'M', '22', '20974879', '13814893809', 'fanqi@foundry.com.cn', '苏州市吴中区兴南路');
+INSERT INTO myfriend VALUES ('21', '1', '孙云', 'M', '38', '18451749', '', 'xgn@ronghe.net', '紫金路明湖山庄2栋4单元202室');
+
+INSERT INTO myfriend VALUES ('24', '3', '钱国平', 'F', '26', '22593239', '13812856344', 'CN13801018949@hotmai', '专业制造拉丝设备（铜线，铜包铝，铜包钢）。热心，竭诚为商海朋友推波助澜！');
+INSERT INTO myfriend VALUES ('25', '2', '吴礼桥', 'M', '32', '15776736', '15995668959', 'fubao@f139.com', '昆山市');
+INSERT INTO myfriend VALUES ('26', '3', '黄世平', 'M', '32', '7986613', '13913971320', 'office@sainty-hongta', '翔宇大厦七楼');
+INSERT INTO myfriend VALUES ('27', '1', '朱志能', 'M', '29', '19892834', '13913934999', 'njadong@163.com', '洪武路278号');
+INSERT INTO myfriend VALUES ('28', '2', '姚斌', 'M', '28', '21985041', '13265460765', 'jiasusb@126.com', '广东省');
+
+INSERT INTO myfriend VALUES ('30', '1', '赵华华', 'M', '21', '24519014', '13951088904', 'zb@stu.yctc.edu.cn', '大行宫39号1幢2305');
+INSERT INTO myfriend VALUES ('31', '1', '李先生', 'M', '20', '19504489', '13773177218', 'ftc-cs@ftc.com.tw', '昆山市石牌镇昆山变压器厂内');
+INSERT INTO myfriend VALUES ('32', '2', '蔡子敬', 'F', '27', '24388695', '13675176962', 'liumingxi8868@163.co', '良友里');
+INSERT INTO myfriend VALUES ('33', '2', '经通', 'M', '23', '11855373', '', 'china@mail.enreach.c', '堂子街寰宇商务中心305');
+INSERT INTO myfriend VALUES ('34', '3', '陈桂红', 'F', '33', '21959210', '13951643575', 'webmaster@jc315.net', '虎踞南路75-5号');
+INSERT INTO myfriend VALUES ('35', '2', '唐献红', 'M', '33', '33252666', '13512536618', 'Qingmu9188@yahoo.com', '俞家巷后8号102室');
+INSERT INTO myfriend VALUES ('36', '1', '李江宁', 'F', '33', '12397474', '13851494887', 'trademark@njtrademar', '中和桥5号二单元7幢604');
+INSERT INTO myfriend VALUES ('37', '3', '吴玉福', 'M', '21', '10905074', '13912129305', '87875562@126.com', '桂香苑21幢');
+INSERT INTO myfriend VALUES ('38', '3', '俞明华', 'F', '28', '37077523', '13511753888', 'cheng@yzhw.com', '扬州市西湖镇台扬路9号');
+INSERT INTO myfriend VALUES ('39', '1', '杨宗武', 'F', '39', '15591232', '13382586239', 'report@hzresearch.co', '泰兴市广陵镇北首');
+INSERT INTO myfriend VALUES ('40', '1', '褚德华', 'F', '21', '17356748', '15861032523', 'rsk@nju.edu.cn', '江苏靖江侯河乡');
+INSERT INTO myfriend VALUES ('41', '2', '孙网扣', 'M', '27', '29084307', '13852661679', 'jyhb@jyhb.gov.cn', '泰州姜堰');
+INSERT INTO myfriend VALUES ('42', '3', '金星', 'M', '37', '26640145', '15152770405', 'asklight@gmail.com', '源城区高新开发区');
+INSERT INTO myfriend VALUES ('43', '3', '彭晓汛', 'M', '35', '20857932', '13301469296', 'tzjxpengxiao@126.com', '余西工业园区');
+INSERT INTO myfriend VALUES ('44', '1', '宋长根', 'F', '35', '22761211', '13270083166', 'jsycrg@163.com', '盐城市盐南东路44-2号');
+INSERT INTO myfriend VALUES ('45', '2', '杨茂盛', 'F', '31', '31175455', '13182161217', 'kld_dz@163.com', '盐城市龙冈镇许巷');
+INSERT INTO myfriend VALUES ('46', '1', '朱军', 'M', '39', '13099548', '13851315099', 'webmaster@china-men.', '大丰市金都贸易城13-225#');
+INSERT INTO myfriend VALUES ('47', '2', '周东', 'F', '34', '19018985', '15050678598', 'zbjgc@126.com', '奥体中心');
+INSERT INTO myfriend VALUES ('48', '1', '贾刘才', 'M', '34', '20034219', '', 'whywhy628@163.com', '盐城市亭湖经济开发区光荣小区423号');
+INSERT INTO myfriend VALUES ('49', '1', '高政权', 'M', '27', '29320171', '13801425625', '24571189@qq.com', '靖江市新桥镇新桥中路61号');
+INSERT INTO myfriend VALUES ('50', '3', '严乐成', 'M', '21', '25431285', '', 'sales@fjtzhw.com', '靖江市新桥镇同心桥');
+INSERT INTO myfriend VALUES ('51', '1', '郭兆言', 'M', '23', '29806208', '13775496325', 'coop@chinacoop.gov.c', '天地花园8栋');
+INSERT INTO myfriend VALUES ('52', '1', '汤志新', 'F', '36', '31641583', '15052960806', 'sales@scrbkj.com', '大庆北路桑园小区1号');
+INSERT INTO myfriend VALUES ('53', '2', '夏兆锦', 'M', '23', '14292659', '13511566191', 'LIUDAJUNA@SOHU.COM', '江苏连云港新浦区海连西路花卉市场B66');
+INSERT INTO myfriend VALUES ('54', '3', '陈刚', 'M', '31', '5323446', '15861999021', 'jingjinprint@126.com', '开发区聚亨路12号');
+INSERT INTO myfriend VALUES ('55', '3', '孟广振', 'M', '25', '12884612', '13305200259', 'slmanbuzhe@yahoo.com', '江苏常州');
+INSERT INTO myfriend VALUES ('56', '1', '张建', 'M', '35', '12312569', '13815559968', 'lmxz@molss.gov', '人民南路36号');
+INSERT INTO myfriend VALUES ('57', '2', '曹汝祥', 'M', '22', '22359728', '13305136644', 'admire@qyrc.cn', '新浦国安电脑城1-7-17');
+INSERT INTO myfriend VALUES ('58', '3', '吴孝祥', 'M', '37', '20370406', '15961372489', 'oceanmind@ibdaily.co', '江苏连云港新港城大道86号');
+INSERT INTO myfriend VALUES ('59', '3', '陈建好', 'M', '34', '19696208', '13109428808', 'yangxiny883@sohu.com', '泗洪县双沟镇东大街88号');
+INSERT INTO myfriend VALUES ('61', '3', '张涌杰', 'M', '20', '21595968', '13621511112', 'runliheatenergy005@1', '太湖大道一号');
+INSERT INTO myfriend VALUES ('62', '3', '刘艳', 'M', '25', '18617768', '13775875508', '814479837@qq.com', 'A江苏新沂钟吾路110号');
+INSERT INTO myfriend VALUES ('63', '3', '俞亚鹏', 'M', '29', '11883587', '13306163020', 'yxue@chinaccm.com', '江阴市滨江东路297号');
+INSERT INTO myfriend VALUES ('64', '1', '张亚军', 'F', '23', '16220409', '13921196599', 'dzjw@cqtst.com', '无锡滨湖区华庄镇');
+INSERT INTO myfriend VALUES ('65', '2', '周范洁', 'F', '30', '11405301', '13606117335', 'webmaster@shbiz.cn', '古村2号305-2');
+INSERT INTO myfriend VALUES ('66', '2', '江龙建', 'M', '30', '12750749', '', 'evetcnmaster@163.com', '光华路1号B010');
+INSERT INTO myfriend VALUES ('67', '3', '段总', 'M', '26', '21704673', '13506147852', 'fu1122@yeah.net', '东南开发区采菱工业园');
+INSERT INTO myfriend VALUES ('68', '1', '花春雄', 'F', '30', '21075094', '13057216073', 'webmaster@zgdzsww.cn', '东亭镇映月苑小区');
+INSERT INTO myfriend VALUES ('69', '2', '韩永祥', 'M', '32', '10132944', '13806150561', 'zenbor@163.com', '宜兴市官林镇钮家西街');
+INSERT INTO myfriend VALUES ('70', '2', '陈德铭', 'M', '25', '17413555', '', 'supuer@163.com', '小河镇通江路185号');
+INSERT INTO myfriend VALUES ('71', '1', '江志恺', 'F', '37', '31607809', '13584377949', 'ngkf@tom.co', '湖塘镇华都馨苑二幢甲单元101室（常州办事处）');
+INSERT INTO myfriend VALUES ('72', '3', '勾宏图', 'M', '32', '16893997', '13937310710', 'hjiang9083@163.com', '金坛市东城颐景园');
+INSERT INTO myfriend VALUES ('73', '1', '杨晓波', 'M', '26', '18034597', '13809070126', 'yxb6461@pub.cz.jsi', '武进市庙桥镇');
+INSERT INTO myfriend VALUES ('74', '1', '花春雄', 'M', '27', '19592609', '13057216073', 'webmaster@zgdzsww.cn', '东亭镇映月苑小区');
+INSERT INTO myfriend VALUES ('75', '3', '沙总', 'M', '29', '23144204', '15896490395', 'qianyan.biz@hotmail.', '无锡市');
+INSERT INTO myfriend VALUES ('76', '2', '郑抗', 'M', '27', '21738709', '13906185324', 'jiangzhetex@gmail.co', '新华路5号（创新创意产业园）H幢402');
+INSERT INTO myfriend VALUES ('77', '1', '金海良', 'M', '22', '26502554', '15952464138', 'info@cnfashion.net', '锡山区东亭镇二泉东路庄桥工业园区');
+INSERT INTO myfriend VALUES ('78', '2', '顾国兴', 'F', '23', '19691797', '13906186527', '5108730998@163.com', '羊尖镇26号');
+INSERT INTO myfriend VALUES ('79', '1', '孙建新', 'M', '27', '9652528', '', 'sales@dianzinet.com', '溧阳市新昌仙簏路189号（104国道收费站旁）');
+INSERT INTO myfriend VALUES ('80', '1', '周建青', 'M', '33', '5141969', '', 'company@cz-sg.com', '常州市常锡路宣塘桥西53号');
+INSERT INTO myfriend VALUES ('81', '2', '黄锡生', 'M', '24', '39331179', '13906141682', 'shunfeng_66@163.com', '溧阳市城西经济开发区（原新昌工业集中区顺风路1号）');
+INSERT INTO myfriend VALUES ('82', '3', '陶锦国', 'M', '28', '19873232', '', 'zhongda@shtel.net.cn', 'fdsafdsafds');
+INSERT INTO myfriend VALUES ('83', '3', '刘锡铭', 'M', '38', '22658313', '13915351331', 'zhf67890321@sina.com', '南尖小区7号501号');
+INSERT INTO myfriend VALUES ('84', '1', '顾建岳', 'M', '32', '9120942', '13685244252', 'xxzx@zjj.gov.cn', '江苏常州');
+INSERT INTO myfriend VALUES ('85', '3', '李红', 'M', '37', '17937047', '13451865780', 'service@uyour.com', '户部街33号天之都大厦34楼');
+INSERT INTO myfriend VALUES ('86', '1', '林青友', 'M', '28', '16432323', '13584599131', 'coloraincn@126.com', '博爱路121号');
+INSERT INTO myfriend VALUES ('87', '2', '殷晓东', 'M', '29', '8688574', '13003385103', 'wyf@wxbig.com', '跨塘路48-49号');
+INSERT INTO myfriend VALUES ('88', '2', '陆和娣', 'M', '37', '33010571', '', 'jyn@chinaccm.com', '北环新村18-23幢甲单元501室');
+INSERT INTO myfriend VALUES ('89', '2', '金东晨', 'M', '36', '19831831', '13951963382', 'summer77336@hotmail.', '建邺路199号东沛大厦104室');
+INSERT INTO myfriend VALUES ('90', '2', '谢立', 'F', '32', '34421264', '13851824899', 'shitonglifang@hotmai', '军农路2号');
+INSERT INTO myfriend VALUES ('91', '1', '侯强', 'M', '22', '11209919', '', 'lliu89@163.com', '');
+INSERT INTO myfriend VALUES ('92', '1', '黄德强', 'M', '22', '11522533', '13218055677', 'yanwu1986@126.com', '.苜蓿园大街56号');
+INSERT INTO myfriend VALUES ('93', '2', '梁宜恕', 'M', '21', '28278864', '13515101790', 'it114@mx.cei.gov.cn', '瑞金路瑞金北村');
+INSERT INTO myfriend VALUES ('94', '2', '吴总', 'M', '27', '25430373', '13776666049', 'service@01yyy.com', '石鼓路98号阳光大厦4楼B座');
+INSERT INTO myfriend VALUES ('95', '1', '朱金宝', 'M', '33', '21656195', '13913902345', 'zyc@alongtibet.com', '西一新村34号702');
+INSERT INTO myfriend VALUES ('96', '1', '潘增辉', 'F', '20', '23755612', '13063758025', 'panhao921@126.com', '周市镇市东河路向南500米');
+INSERT INTO myfriend VALUES ('97', '3', '周先生', 'M', '35', '30947068', '13770676501', 'fchgsc@fchgsc.com', '胜利村路55号');
+INSERT INTO myfriend VALUES ('98', '1', '胡荣贵', 'M', '28', '13382001', '13004455552', 'lily@chinaccm.com', '泰兴市姚王镇一区');
+INSERT INTO myfriend VALUES ('99', '3', '李凯峰', 'M', '26', '24019567', '13770937904', 'artco@artco.cn', '仓巷137号5楼E区');
+INSERT INTO myfriend VALUES ('100', '1', '王维', 'M', '29', '20453630', '', 'mllijunx@263.net', '石鼓路33号东方名苑B-2510');
+INSERT INTO myfriend VALUES ('101', '3', '王先生', 'M', '22', '16508813', '', 'qgkjktv@163.com', '石门坎117号');
+INSERT INTO myfriend VALUES ('102', '1', '陈雷', 'M', '28', '18387086', '13851456595', 'it114@mx.cei.gov.cn', '白下路121号');
+INSERT INTO myfriend VALUES ('103', '3', '张立', 'M', '31', '9236703', '13915977433', 'dongfang-088@163.com', '三条巷18号');
+INSERT INTO myfriend VALUES ('104', '1', '杨乃彬', 'F', '37', '27627420', '13390758819', 'name@163.com', '中山东路524号');
+INSERT INTO myfriend VALUES ('105', '1', 'longjiang', 'M', '24', '20511034', '13814097169', 'ythl3210@126.com', '白下路179号');
+INSERT INTO myfriend VALUES ('106', '1', '周士锋', 'M', '38', '15159683', '13770988800', 'it114@mx.cei.gov.cn', '洪武路315号');
+INSERT INTO myfriend VALUES ('107', '1', '谈伟', 'M', '33', '18609581', '13186410025', 'ythl3210@126.com', '');
+INSERT INTO myfriend VALUES ('108', '2', '赵俊', 'M', '31', '16727566', '13505155899', 'smzs@njsmzs.com.cn', '石鼓路33号东方名苑B座1506室');
+INSERT INTO myfriend VALUES ('109', '1', '李福新', 'M', '33', '25481764', '13701403466', 'jt9419@163.com', '抄纸巷41号');
+INSERT INTO myfriend VALUES ('110', '1', '戴士江', 'M', '25', '30180169', '13305170348', 'tushi_nj@yahoo.com.c', '武学园８号１２０５室');
+INSERT INTO myfriend VALUES ('111', '3', '方先生', 'M', '37', '29758215', '13512533511', 'yxx888@yxx.com.cn', '光华路88号');
+INSERT INTO myfriend VALUES ('112', '1', '李建英', 'M', '31', '4875030', '13621592926', 'xxzx@scjst.gov.cn', '南京市江宁区金箔路2号东城风景4栋1104室');
+INSERT INTO myfriend VALUES ('113', '1', '陈士中', 'M', '24', '25117060', '', 'njtjsp@njtjsp.com', '户部街9-1号');
+INSERT INTO myfriend VALUES ('114', '2', '邢永攀', 'M', '32', '30743096', '13813856151', 'fu1122@yeah.net', '');
+INSERT INTO myfriend VALUES ('115', '1', '叶维利', 'M', '21', '24110448', '13951879891', 'xinfenyyf@163.com', '南京市江苏南京白下区白下路165号');
+INSERT INTO myfriend VALUES ('116', '2', '李梦', 'M', '35', '23227022', '', 'ythl3210@126.com', '长白街98号3栋1单元603');
+INSERT INTO myfriend VALUES ('117', '3', '杜杨', 'M', '34', '18526112', '13814057553', 'qianyan.biz@hotmail.', '苜蓿园大街66号14A幢501');
+INSERT INTO myfriend VALUES ('118', '1', '孟生祥', 'M', '26', '9220992', '13951023999', 'service@086jc.com', '石鼓路42号建华大厦908');
+INSERT INTO myfriend VALUES ('119', '3', '鲍先生', 'M', '20', '31691731', '13951717668', '12638@12638.com', '白下路268号逃源大厦419');
+INSERT INTO myfriend VALUES ('120', '2', '杜金海', 'M', '37', '27375858', '', 'sales@chinaccm.com', '瑞金路２号');
+INSERT INTO myfriend VALUES ('121', '1', '姚江进', 'F', '39', '27895101', '13915969289', 'art@cntcp.com', '四条巷77号李公祠');
+INSERT INTO myfriend VALUES ('122', '2', '龙卫东', 'F', '34', '17320724', '13913965581', 'jhjs@jhsteel.cn', '石杨路12号');
+INSERT INTO myfriend VALUES ('123', '2', '刘荣', 'F', '23', '16985650', '13851821745', '020art@gmail.com', '龙蟠中路（公园路４４号）体育大厦２１０４室');
+INSERT INTO myfriend VALUES ('124', '2', '王渊', 'M', '36', '20748783', '13182838098', 'wql@hkcd.com.hk', '中山东路218号长安国际中心五楼E座');
+INSERT INTO myfriend VALUES ('125', '3', '潘爱华', 'M', '23', '31563262', '13813061758', 'service@mail.book4u.', '天堂村14号');
+INSERT INTO myfriend VALUES ('126', '3', '胡淑娟', 'M', '23', '17804353', '13951877505', 'deyangcc@126.com', '瑞金路25号拓博商务中心6楼616室');
+INSERT INTO myfriend VALUES ('127', '1', '王强', 'F', '27', '8893776', '13601469093', '600139sh@sina.com', '白下路');
+INSERT INTO myfriend VALUES ('128', '3', '达应龙', 'M', '31', '20297119', '13770719801', 'njzL889@126.com', '公园路44号体育大厦1508室');
+INSERT INTO myfriend VALUES ('129', '2', '秦广财', 'M', '28', '14387322', '13305179488', 'langtian168@126.com', '');
+INSERT INTO myfriend VALUES ('130', '1', '王春华', 'M', '28', '15091698', '13862097367', 'wfxwjzt@163.com', '苏州工业园区胜浦镇同胜路３３号');
+INSERT INTO myfriend VALUES ('131', '3', '孟阳', 'F', '22', '8331190', '13851528799', 'ehome@ehomecn.com', '友谊河路1-1号');
+INSERT INTO myfriend VALUES ('132', '1', '郑伟', 'M', '30', '33333370', '13776282152', 'liangliang1949@hotma', '昆山市中心');
+INSERT INTO myfriend VALUES ('133', '3', '刘总', 'M', '39', '18403386', '', 'webmaster@jc315.net', '中国江苏省南京市新世纪广场B座2810室');
+INSERT INTO myfriend VALUES ('134', '3', '张开鹏', 'F', '31', '21357182', '13921444200', 'bjdigiworld@yahoo.co', '将军塘20号');
+INSERT INTO myfriend VALUES ('135', '3', '李忠明', 'M', '36', '8751895', '13605171610', 'newsmaster@merit-tim', '海福巷1号');
+INSERT INTO myfriend VALUES ('136', '3', '韩晓慧', 'M', '31', '35195231', '13655188288', 'xlgw525@163.com', '苜蓿园大街286号');
+INSERT INTO myfriend VALUES ('137', '3', '肖艳茹', 'M', '36', '29178087', '13770562702', 'lawon@sina.com', '虎踞路');
+INSERT INTO myfriend VALUES ('138', '2', '张小康', 'F', '27', '11178801', '13913926628', 'Chasewel@yahoo.cn', '西白菜园33号都市名园2楼');
+INSERT INTO myfriend VALUES ('139', '2', '吴飞', 'M', '32', '17906101', '13773246882', 'tmxxw@tmxxw.com', '张家港保税区');
+INSERT INTO myfriend VALUES ('140', '2', '李元国', 'M', '39', '19485784', '13851540451', 'f17cn@126.com', '石榴新村334号');
+INSERT INTO myfriend VALUES ('141', '2', '黄汉侨', 'M', '21', '16873689', '13851998418', 'oceanmind@ibdaily.co', '石鼓路107号华威大厦23层C座');
+INSERT INTO myfriend VALUES ('142', '2', '冯纪华', 'M', '22', '35492404', '13913998853', 'hydrpneu@163.com', '菜市口3号');
+INSERT INTO myfriend VALUES ('143', '1', '孙锡根', 'F', '24', '13389212', '13805150007', 'sunxigen@126.com', '中山东路110号一楼88号');

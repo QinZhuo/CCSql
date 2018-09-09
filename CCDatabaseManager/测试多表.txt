@@ -1,0 +1,52 @@
+CREATE DATABASE test;
+
+CREATE TABLE t1(
+ a int
+b string
+c string
+primary(a)
+);
+CREATE TABLE t2(
+ a int
+b string
+c string
+primary(a)
+);
+CREATE TABLE t3(
+ a int
+b string
+c string
+primary(a)
+);
+CREATE TABLE t4(
+ a int
+b string
+c string
+primary(a)
+);
+
+INSERT INTO t1 VALUES ('111', '111', '111');
+INSERT INTO t1 VALUES ('222', '222', '222');
+INSERT INTO t1 VALUES ('333', '333', '333');
+INSERT INTO t1 VALUES ('444', '444', '444');
+INSERT INTO t1 VALUES ('555', '555', '555');
+
+INSERT INTO t2 VALUES ('111', '111', '111');
+INSERT INTO t2 VALUES ('222', '222', '222');
+INSERT INTO t2 VALUES ('333', '333', '333');
+INSERT INTO t2 VALUES ('444', '444', '444');
+INSERT INTO t2 VALUES ('555', '555', '555');
+
+INSERT INTO t3 VALUES ('111', '111', '111');
+INSERT INTO t3 VALUES ('222', '222', '222');
+INSERT INTO t3 VALUES ('333', '333', '333');
+INSERT INTO t3 VALUES ('444', '444', '444');
+INSERT INTO t3 VALUES ('555', '555', '555');
+
+INSERT INTO t4 VALUES ('111', '111', '111');
+INSERT INTO t4 VALUES ('222', '222', '222');
+INSERT INTO t4 VALUES ('333', '333', '333');
+INSERT INTO t4 VALUES ('444', '444', '444');
+INSERT INTO t4 VALUES ('555', '555', '555');
+use database test;
+select t1.a t2.a t3.a t4.a from t1 t2 t3 t4 where t1.b=t2.b and t2.a=t3.a and t3.c=t4.c;

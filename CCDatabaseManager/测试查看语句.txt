@@ -1,0 +1,47 @@
+use database myfriend;
+select * from user;
+
+use database myfriend;
+select * from myfriend;
+
+
+use database myfriend;
+select user.name myfriend.name from user myfriend where user.userid=myfriend.userid and user.userid=1;
+select * from user myfriend where user.userid=myfriend.userid and user.userid=1;
+1
+
+
+use database myfriend;
+select * from user where password=123;
+
+delete from user where password=123;
+
+use database myfriend;
+select * from myfriend where id<10;
+
+use database myfriend;
+alter table user add job int;
+
+use database myfriend;
+alter table user drop password;
+
+use database myfriend;
+alter table myfriend drop id;
+
+
+use database myfriend;
+select age  from myfriend;
+
+update user
+set job = ´ò¹¤
+where password=123;
+
+use database myfriend;
+update user
+set job = 007
+
+use database myfriend;
+create index t_index on user userid;
+
+use database myfriend;
+create index f_id_index on myfriend id;
